@@ -1,0 +1,80 @@
+.outer1{
+    z-index: 100;
+    background-color: rgb(0,0,0,0.5);
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+position:fixed;
+ height:100%;
+ width:100%;
+ align-items: center;
+ display: flex;
+  justify-content: center;  /* horizontally center */
+  align-items: center;
+}
+.inner2{
+width:500px;
+height:350px;
+margin:5% 32%;
+background-color:white;
+border-radius: 4rex;
+
+}
+.sub-inner{
+ 
+padding-left:10px;
+}
+.textbox1 .label{
+    color:#131b2e;
+    text-transform: capitalize;
+  width:120px;
+    margin:15px;
+   display:inline-block;
+}
+.textbox1{
+  
+  position:relative;
+   width:500px;
+}
+.inner2 button{
+  
+    width:200px;
+    padding:8px 10px;
+    background-color: #F37438;
+    color:#ffffff;
+    border-radius: 4px;
+    border:none;
+}
+.inner2 button:hover{
+    background-color:rgb(184, 145, 74);
+}
+.inner2 p span{
+  float:right;
+}
+@media (max-width: 400px){
+  .inner2{
+    width:255px;
+height:max-content;
+background-color:white;
+border-radius: 4rex;
+padding:10px;
+  }
+  .inner2 button{
+   margin-top:40px;
+ position:relative;
+    width:200px;
+    padding:8px 10px;
+    background-color: #F37438;
+    color:#ffffff;
+    border-radius: 4px;
+    border:none;
+}
+.inner2 input[type="text"]{
+  display: block;          /* make it a block element */
+  margin: 5px ;   
+}
+.sub-inner input[type="text"]{
+   display: block;          /* make it a block element */
+  margin: 5px ;   
+}
+}

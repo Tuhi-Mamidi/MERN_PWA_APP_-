@@ -1,0 +1,30 @@
+.seeds{
+    margin:20px;
+
+}
+.seeds div{
+    background-color: rgb(255, 255, 255);
+    padding:5px;
+    border-radius: 2px;
+    gap:10px;
+    margin-top:10px;
+}
+.show1 .tab2{
+    border-radius: 10px;
+    position:relative;
+    justify-content: center;
+    margin-left: auto;
+  margin-right: auto;
+  margin-top:0px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.tab2 th{
+    background-color: rgb(254, 254, 254);
+    color:black;
+}
+.show1{
+    margin:0px;
+    gap:0px;
+    padding:0;
+}

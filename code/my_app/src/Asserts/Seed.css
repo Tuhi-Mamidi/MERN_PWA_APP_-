@@ -1,0 +1,164 @@
+.heading{
+    font-size: 25px;
+    margin-left:15px;
+    margin-top: 10px;
+}
+ span{
+
+   
+    position:relative;
+
+      display: block;
+ 
+  font-size: 17px; 
+ }
+ span a{
+    text-decoration:none;
+    color:rgb(157, 157, 157);
+ }
+ span a:hover{
+text-decoration: underline;
+ }
+ 
+.button{
+  
+  margin-bottom: 5px;
+ 
+}
+.button .b1{
+  width:100px;
+  padding:10px;
+  margin-right:20px;
+}
+.button .b1:hover{
+  background-color:rgb(184, 145, 74);
+}
+.down1{
+  display:grid;
+  grid-template-columns: auto auto;
+  padding:0px;
+  margin:0px;
+}
+.down1 div button{
+position:relative;
+margin:0px;
+}
+.fab {
+  position: fixed;
+  bottom: 20px;       /* distance from bottom */
+  right: 20px;        /* distance from right */
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* circle */
+  background-color: #cb9010; /* green background */
+  color: white;
+  border: none;
+  font-size: 32px;    /* size of plus */
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, background 0.3s ease;
+  z-index: 1000; /* keep above other elements */
+}
+
+.fab:hover {
+  background-color: #cb9010;
+  transform: scale(1.05);
+}
+.sales{
+    margin:10px;
+   
+  }
+  .sales_inner p{
+    margin:0px;
+    padding:5px;
+  }
+  .sales_inner{
+    
+    width:min-content;
+  min-width: max-content;
+    background-color: white;
+    width:100%;
+     gap:10px;
+     margin-bottom: 10px;
+     border-radius: 1rem;
+  }
+  .sales_inner span{
+    float:right;
+  }
+@media (max-width: 400px){
+  .sales{
+    margin:10px;
+   
+  }
+  .sales_inner p{
+    margin:0px;
+    padding:5px;
+  }
+  .sales_inner{
+    
+    width:min-content;
+  min-width: max-content;
+    background-color: white;
+    width:100%;
+     gap:10px;
+     margin-bottom: 10px;
+     border-radius: 1rem;
+  }
+  .sales_inner span{
+    float:right;
+  }
+  .down1{
+  display:grid;
+  grid-template-columns: auto auto;
+  padding:0px;
+  margin:0px;
+  
+}
+.down1 div button{
+position:relative;
+width:100px;
+}
+ 
+}
+
+/*.table{
+    
+ 
+  position: relative;
+ 
+  border: 1px solid #e8e0e0;
+  
+ background-color: white;
+ border-radius:10px;
+ box-shadow: inset;
+  
+ }
+
+ table{
+  align-items: center;
+ margin-left: 200px;
+ margin-top:70px;
+ border-collapse:collapse;
+position:absolute;
+ border-style: none;
+}
+th{
+background-color:rgb(237, 234, 234);
+color: #6B7280;
+}
+
+th, td {
+  text-align: center;
+  padding: 10px 20px;
+  border-style: none;
+}
+
+tr {
+  border: 1px solid #e8e0e0;
+   background-color: white;
+}
+*/

@@ -1,0 +1,170 @@
+.add{
+    
+    height:50px;
+}
+
+.add .b2{
+  width:100px;
+  padding:10px;
+  float:right;
+  margin-right:10px;
+
+}
+.add .b1:hover{
+  background-color:rgb(184, 145, 74);
+}
+.add2{
+margin-left: 20px;
+
+     border: 1px solid #c4c2c2;
+     box-shadow: 0px 4px 10px rgba(15, 15, 15, 0.1);
+background-color: rgb(246, 242, 242);
+
+width:max-content;
+}
+.add2 .b3{
+width:130px;
+  padding:10px;
+  margin:0px;
+  color:black;
+  font-weight: bold;
+  background-color: rgb(246, 242, 242);
+}   
+.card {
+   border: 1px solid #c4c2c2;
+     box-shadow: 0px 4px 10px rgba(15, 15, 15, 0.1);
+margin-left:20px;
+     background-color:white;
+    padding:10px;
+   width:min-content;
+  min-width: max-content;
+    
+    width:100%;
+     border-radius:2em;
+}
+/*.card {
+  border: 1px solid #c4c2c2;
+  box-shadow: 0px 4px 10px rgba(15, 15, 15, 0.1);
+  margin-left: 20px;
+  background-color: white;
+  padding: 10px;
+  
+  width: 100%;         
+  max-width: 350px;    
+  min-width: 250px;    
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+
+  border-radius: 2em;
+}*/
+
+
+.card h3 span{
+  float:inline-end;
+}
+.card li{
+  margin-left: 10px;
+}
+.cen{
+  display:grid;
+  grid-template-columns:auto ;
+margin-left:10px;
+
+}
+
+.inner3{
+    width:255px;
+height:max-content;
+  
+
+margin:1% 30%;
+background-color:white;
+border-radius: 4rex;
+padding:5px;
+position:relative;
+}
+.inner3 h4{
+  margin:0px;
+}
+.inner3 p span{
+  float:right;
+}
+.inner3 button{
+   margin-top:10px;
+
+    width:200px;
+    padding:8px 10px;
+    background-color: #F37438;
+    color:#ffffff;
+    border-radius: 4px;
+    border:none;
+}
+.inner3 button:hover{
+    background-color:rgb(184, 145, 74);
+}
+.class {
+     padding: 6px 22px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  color: #333;
+  cursor: pointer;
+  appearance: none;   /* remove default arrow */
+  outline: none;
+  width:245px;
+}
+@media (max-width: 400px){
+  .add2{
+   margin-left:40px;
+   margin-top:10px;
+ position:relative;
+     border: 1px solid #c4c2c2;
+     box-shadow: 0px 4px 10px rgba(15, 15, 15, 0.1);
+background-color: rgb(246, 242, 242);
+
+  }
+  .card{
+     border: 1px solid #c4c2c2;
+  box-shadow: 0px 4px 10px rgba(15, 15, 15, 0.1);
+  background-color: white;
+  
+  margin: 20px;
+  padding: 10px;
+
+  width: 100%;           /* fills grid column */
+  max-width: 300px;      /* fixed maximum width */
+  min-width: 250px;      /* fixed minimum width */
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+
+  border-radius: 2em;
+  }
+  /*
+  .card{
+     border: 1px solid #c4c2c2;
+     box-shadow: 0px 4px 10px rgba(15, 15, 15, 0.1);
+
+     background-color:white;
+ margin-right:10px;
+      width:80%;        
+    margin:20px;
+     border-radius:2em;
+  }
+  */
+.inner3{
+  width:85%;
+height:max-content;
+margin:10px;
+background-color:white;
+border-radius: 4rex;
+
+position:relative;
+}
+.inner3 input[type="text"]{
+  display: block;          /* make it a block element */
+  margin: 5px ;   
+}
+
+}

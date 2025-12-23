@@ -1,0 +1,70 @@
+.add5{
+    margin-left:10px;
+    margin-right:10px;
+   
+    
+     background-color: white;
+     height:20px;
+     position:relative;
+     display: block;
+    
+     padding:10px;
+}
+.show{
+      
+  
+     background-color: white;
+     margin-left:10px;
+    margin-right:10px;
+    display:grid;
+    grid-template-columns: auto ;
+}
+.show div {
+    height:50px;
+    padding:10px;
+} 
+.show select{
+    padding: 6px 22px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  color: #333;
+  cursor: pointer;
+  appearance: none;   /* remove default arrow */
+  outline: none;
+  width:240px;
+}
+.tab2 {
+  border-collapse: collapse;
+  margin-top: 15px;
+  width: 100%;
+  max-width: 700px;
+  margin-left:150px;
+}
+
+.tab2 th {
+  background: #f08b07c8;
+  color: rgb(244, 219, 154);
+  padding: 10px;
+  text-align: left;
+}
+
+.tab2 td {
+  padding: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+.tab2 tr:nth-child(even) {
+  background: #f7fafc;
+}
+@media (max-width: 400px){
+.show div {
+    height:20px;
+    padding:10px;
+} 
+.show button{
+  margin-left:3px;
+}
+}

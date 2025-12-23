@@ -1,0 +1,130 @@
+/*.gr .grdiv{
+    height:100px;
+    width:200px;
+    border: 1px solid #c4c2c2;
+     box-shadow: 0px 4px 10px rgba(15, 15, 15, 0.1);
+     padding:10px;
+     padding-top:0px;
+     color:orangered;
+     border-radius:1em;
+    background-color:rgb(248, 245, 245);
+}
+ .gr{
+    margin:20px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+ }
+
+
+ .grdiv span{
+  
+    
+color:white;
+   text-align: center;
+   position:relative;
+
+    font-size: 40px;
+
+ }*/
+ 
+ .content1{
+   margin:20px;
+  display:grid;
+  grid-template-columns: auto auto auto ;
+ }
+ .content .box{
+ padding:5px;
+    color:orangered;
+ border: 1px solid #c4c2c2;
+     box-shadow: 0px 4px 10px rgba(15, 15, 15, 0.1);
+   height:120px;
+    width:200px;
+    background-color: white;
+   
+ }
+ .content .box1{
+   display:flex;
+    position:relative;
+ }
+ .content .box1 div{
+     
+   width:150px;
+    position:relative;
+ }
+ .tab{
+   margin-left:120px;
+   margin-top: 0px;
+   position:relative;
+   border: 1px solid #e8e0e0;
+   
+ }
+ .tab th{
+   background-color: #f5f4f4;
+ }
+ .tab tr{
+   border: 1px solid #e8e0e0;
+   background-color: white;
+ }
+ 
+.tab select{
+   padding: 6px 22px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  appearance: none;   /* remove default arrow */
+  outline: none;
+  
+  background-position: right 10px center;
+  background-size: 16px;
+}
+
+.ca-inner{
+  border: 1px solid #e8e0e0;
+   background-color: white;
+   height:30px;
+   margin-bottom: 10px;
+   margin-right:10px;
+padding:10px;
+}
+.ca-inner span{
+  float:right;
+}
+.ca-inner span select{
+padding: 5px 15px;
+border-style: none;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  appearance: none;   /* remove default arrow */
+  outline: none;
+  background-color: rgb(184, 245, 184);
+}
+@media (max-width: 768px) {
+
+.ca-inner div{
+  float:right;
+
+}
+.ca-inner{
+  border: 1px solid #e8e0e0;
+   
+   height:max-content;
+ background-color: #fefce0;
+padding:20px;
+margin:20px;
+}
+}
+/*.ca{
+  margin:10px;
+  border: 1px solid #e8e0e0;
+   background-color: white;
+   padding:10px;
+   
+}*/

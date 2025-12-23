@@ -1,0 +1,255 @@
+.grids1 {
+  margin: 10px auto;  
+  display: grid;
+  grid-template-columns: auto auto; 
+  row-gap: 10px;
+  column-gap: 30px;    
+  justify-content: center; 
+}
+
+.grids1 div {
+  height: 100px;
+  width: 120px;
+  border: 1px solid #c4c2c2;
+  border-radius: 2em;
+  box-shadow: 0px 4px 10px rgba(15, 15, 15, 0.1);
+  padding: 10px;
+}
+
+ .info-grid{
+
+   gap:10px;
+   margin:12px;
+justify-content: center;   /* center horizontally */
+  align-items: center;
+  
+   padding-bottom: 10px;
+
+ }
+   /*display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+ }
+ }
+ .info-grid div{
+    height:250px;
+    width:450px;
+    border: 1px solid #c4c2c2;
+    border-radius: 2em;
+     box-shadow: 0px 4px 10px rgba(15, 15, 15, 0.1);
+     padding:10px;
+
+ }
+ }*/
+ .grids1 h4{
+    color:white;
+    margin:0px;
+ }
+ .grids1 div p{
+    color:white;
+   text-align: center;
+   position:relative;
+   
+   font-size: 40px;
+   margin:0px;
+ }
+
+ .react-calendar__month-view__weekdays {
+  color: #333; /* dark gray */
+  font-weight: bold;
+}
+
+/* Weekend days (Sat, Sun) */
+.react-calendar__month-view__days__day--weekend {
+  color: red;  /* highlight weekends */
+}
+
+/* Regular days */
+.react-calendar__tile {
+  color: black; /* default text color */
+}
+
+/* Today */
+.react-calendar__tile--now {
+  background: #eee;
+  color: #1976d2; /* blue */
+  font-weight: bold;
+}
+
+/* Selected date */
+.react-calendar__tile--active {
+  background: #1976d2;
+  color: white; /* text turns white */
+  border-radius: 8px;
+}
+.react-calendar__navigation {
+  background: white;   /* optional */
+  color: #333;         /* default text color */
+  font-weight: bold;
+}
+
+/* The month + year text */
+.react-calendar__navigation__label {
+  color: purple;       /* change header text color */
+  font-size: 18px;
+}
+
+/* Prev/Next buttons */
+.react-calendar__navigation button {
+  color: #1e1f20;      /* blue arrow buttons */
+  font-size: 16px;
+}
+.react-calendar{
+   
+margin:15px;
+   border-radius: 3px;
+  position:relative;
+   width:300px;
+   
+}
+.calender{
+    height:290px;
+    width:250px;
+    border: 1px solid #d9d6d6;
+    border-radius: 2em;
+     box-shadow: 0px 4px 10px rgba(15, 15, 15, 0.1);
+     padding:10px;
+     margin-top:20px;
+     background-color: white;
+     margin-left:20px;
+}
+.calender table{
+ position:relative;
+  margin-top:-10px;
+  padding:10px;
+  border-style: none;
+  width:50px;
+margin-left:10px;
+}
+th{
+  border-bottom: 1px solid #eee;
+
+}
+.calen{
+  border-style: none;
+  background-color: white;
+  padding:2px;
+   
+}
+.calen p{
+  
+   margin:10px;
+   padding:5px;
+   
+   background-color: white;
+border: 1px solid #c4c2c2;
+    border-radius: 4px;
+     box-shadow: 0px 4px 10px rgba(15, 15, 15, 0.1);
+}
+.calen p select{
+border: 1px solid #333;
+  padding: 5px;
+  border-radius: 4px;
+  outline:none;
+  font-size: 14px;
+  
+  
+}
+.calen p span{
+  margin:0px;
+  padding: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  background-color: rgb(81, 221, 81);
+   margin-left:200px;
+   width:100px;
+}
+
+.ftab{
+  position:relative;
+ 
+margin:15px;
+align-items: center;
+  padding:0px;
+   
+   
+}
+
+
+.ftab table {
+margin:0px;
+width:100%;
+position:relative;
+  border-collapse: collapse;
+ 
+}
+
+.ftab th,
+.ftab td {
+  padding: 5px;
+  border: 1px solid #ccc;
+  text-align: left;
+  background-color: rgb(246, 248, 251);
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 500px) {
+  .ftab  {
+    font-size: 12px;
+    padding:0px;
+  }
+  .calen{
+  border-style: none;
+}
+
+.calen p{
+  
+   margin:10px;
+   padding:10px;
+   
+   background-color: white;
+border: 1px solid #c4c2c2;
+    border-radius: 4px;
+     box-shadow: 0px 4px 10px rgba(15, 15, 15, 0.1);
+}
+.calen p select{
+border: 1px solid #333;
+ 
+  border-radius: 4px;
+  outline:none;
+  font-size: 14px;
+  float:right;
+  
+}
+.calen p span{
+  margin:0px;
+  padding: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  background-color: rgb(81, 221, 81);
+   margin-left:200px;
+   width:100px;
+}
+.taskbut{
+position:relative;
+  min-width: 100px;
+   padding:10px;
+  border-radius: 4px;
+  width:100%;
+ margin:0px; 
+}
+.calender table{
+ position:relative;
+  margin-top:-10px;
+  padding:10px;
+  border-style: none;
+  width:100%;
+
+}
+.calender th,
+.calender td {
+  
+  padding: 8px;          /* balanced spacing */
+  min-width: 36px;       /* ensures cells don’t shrink too much */
+}
+}
