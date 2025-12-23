@@ -1,0 +1,56 @@
+{
+ 
+  "name": "kisan connect",
+  "short_name":"kisan connect",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+ "screenshots": [
+    {
+     "src": "Screenshot 2025-10-02 193536.png",
+      "sizes": "819x940",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Wonder Widgets"
+    },
+    {
+     "src": "Screenshot 2025-10-02 200456.png",
+      "sizes": "812x934",
+      "type": "image/png",
+       "form_factor": "narrow"
+      
+    
+    }
+],
+  "icons": [
+    {
+      "src":"logoo192.jpeg",
+      "sizes":"192x192",
+      "type":"image/jpeg"
+    },
+   {
+      "src":"logoo256.jpeg",
+      "sizes":"256x256",
+      "type":"image/jpeg"
+    },
+    {
+      "src":"logoo384.jpeg",
+      "sizes":"384x384",
+      "type":"image/jpeg"
+    },{
+      "src":"logoo512.jpeg",
+      "sizes":"512x512",
+      "type":"image/jpeg"
+    },{
+      "src":"maskable_icon.png",
+      "sizes":"890x890",
+      "type":"image/png"
+    }
+   
+   
+   
+  ]
+ 
+}
